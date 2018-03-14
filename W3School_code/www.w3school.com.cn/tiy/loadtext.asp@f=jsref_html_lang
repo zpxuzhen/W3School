@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body id="myid" lang="en-us">
+
+<script>
+var x=document.getElementsByTagName('body')[0];
+document.write("Body ÓïÑÔ£º" + x.lang);
+document.write("<br>");
+document.write("Ìæ´ú·½·¨£º");
+document.write(document.getElementById('myid').lang);
+</script>
+
+</body>
+</html>

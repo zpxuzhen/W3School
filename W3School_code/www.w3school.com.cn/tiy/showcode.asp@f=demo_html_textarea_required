@@ -1,0 +1,29 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;form action=&quot;/demo/demo_form.asp&quot;&gt;
+&lt;textarea rows=&quot;4&quot; cols=&quot;50&quot; name=&quot;comment&quot; required&gt;
+&lt;/textarea&gt;
+&lt;input type=&quot;submit&quot;&gt;
+&lt;/form&gt;
+
+&lt;p&gt;&lt;b&gt;注释：&lt;/b&gt;Internet Explorer 和 Safari 都不支持 required 属性。&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

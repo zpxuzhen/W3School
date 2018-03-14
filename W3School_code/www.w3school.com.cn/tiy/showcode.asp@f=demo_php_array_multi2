@@ -1,0 +1,40 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$cars = array
+   (
+   array(&quot;Volvo&quot;,33,20),
+   array(&quot;BMW&quot;,17,15),
+   array(&quot;Saab&quot;,5,2),
+   array(&quot;Land Rover&quot;,15,11)
+   );
+   
+for ($row = 0; $row &lt;  4; $row++) {
+   echo &quot;&lt;p&gt;&lt;b&gt;ÐÐÊý $row&lt;/b&gt;&lt;/p&gt;&quot;;
+   echo &quot;&lt;ul&gt;&quot;;
+   for ($col = 0; $col &lt;  3; $col++) {
+     echo &quot;&lt;li&gt;&quot;.$cars[$row][$col].&quot;&lt;/li&gt;&quot;;
+   }
+   echo &quot;&lt;/ul&gt;&quot;;
+}
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

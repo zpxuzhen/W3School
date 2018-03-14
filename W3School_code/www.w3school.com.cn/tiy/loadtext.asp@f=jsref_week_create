@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何创建 Input Week 字段</h3>
+
+<p>点击按钮来创建 Week 字段。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction() {
+    var x = document.createElement("INPUT");
+    x.setAttribute("type", "week");
+    x.setAttribute("value", "2000-W15");
+    document.body.appendChild(x);
+}
+</script>
+
+</body>
+</html>

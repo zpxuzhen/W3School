@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body><p id="demo">点击按钮来获得 body 元素首个子节点的名称。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x=document.getElementById("demo");  
+x.innerHTML=document.body.childNodes.item(0).nodeName;
+}
+</script>
+
+</body>
+</html>

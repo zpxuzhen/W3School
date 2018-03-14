@@ -1,0 +1,33 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$cars=array(&quot;Volvo&quot;,&quot;BMW&quot;,&quot;SAAB&quot;);
+rsort($cars);
+
+$clength=count($cars);
+for($x=0;$x&lt;$clength;$x++)
+   {
+   echo $cars[$x];
+   echo &quot;&lt;br&gt;&quot;;
+   }
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">请点击按钮来查明 P 元素中的首个属性是 ID 属性。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x=document.getElementById("demo");
+x.innerHTML=x.attributes[0].isId;
+}
+</script>
+
+<p><b>注释：</b>Internet Explorer 或 Opera 不支持 isId 属性。</p>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 Datetime 字段</h3>
+
+<input type="datetime" id="myDatetime" value="2014-06-01T10:55Z">
+
+<p>点击按钮来获得 datetime 字段的日期和时间。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myDatetime").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

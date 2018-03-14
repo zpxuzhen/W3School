@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+.democlass{
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<h1>Hello World</h1>
+
+<p id="demo">点击按钮来设置上面这个标题的 class 属性节点。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var atr=document.createAttribute("class");
+atr.nodeValue="democlass";
+var h=document.getElementsByTagName("H1")[0];
+h.setAttributeNode(atr); 
+}
+</script>
+
+</body>
+</html>

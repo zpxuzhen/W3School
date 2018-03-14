@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function changeLink()
+{
+document.getElementById('myAnchor').innerHTML="W3School";
+document.getElementById('myAnchor').href="..";
+document.getElementById('myAnchor').target="_blank";
+}
+</script>
+</head>
+<body>
+
+<a id="myAnchor" href="../../www.microsoft.com/default.htm">Œ¢»Ì</a>
+<input type="button" onclick="changeLink()" value="∏¸∏ƒ¡¥Ω”">
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table,th,td
+{
+border:1px solid black;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <colgroup id="myColgroup"></colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+  <tr>
+    <td>5869207</td>
+    <td>My first CSS</td>
+    <td>$49</td>
+  </tr>
+</table>
+
+<p>点击按钮，把前两列的背景色设置为红色。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+document.getElementById("myColgroup").span="2";
+document.getElementById("myColgroup").style.backgroundColor="red";
+}
+</script>
+
+</body>
+</html>

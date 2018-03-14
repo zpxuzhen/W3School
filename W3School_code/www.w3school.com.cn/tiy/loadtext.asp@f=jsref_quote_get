@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 QUOTE 元素</h3>
+
+<p>Here is a quote from WWF's website:</p>
+
+<p>WWF's goal is to:
+<q id="myQuote" cite="http://www.wwf.org">
+Build a future where people live in harmony with nature.</q>
+We hope they succeed.
+</p> 
+
+<p>点击按钮来获得引用的 URL。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myQuote").cite;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

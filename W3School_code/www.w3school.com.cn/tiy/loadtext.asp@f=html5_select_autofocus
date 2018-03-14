@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<select autofocus>
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="opel">Opel</option>
+<option value="audi">Audi</option>
+</select>
+
+<p><b>注释：</b>Internet Explorer 9 以及更早的版本不支持 &lt;select&gt; 标签的 autofocus 属性。</p>
+
+</body>
+</html>

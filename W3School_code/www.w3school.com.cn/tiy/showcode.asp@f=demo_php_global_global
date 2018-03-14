@@ -1,0 +1,33 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php 
+$x = 30;
+$y = 65; 
+
+function addition() {
+   $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];
+}
+
+addition();
+echo $z;
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

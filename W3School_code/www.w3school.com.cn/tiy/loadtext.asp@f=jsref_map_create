@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 MAP 元素</h3>
+
+<img src="../i/eg_planets.jpg" border="0" usemap="#myMap" alt="Planets" />
+
+<p>点击按钮来创建 IMAGE-MAP 以及链接到 &quot;venus.htm&quot; 的 AREA 元素：</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.createElement("MAP");
+x.setAttribute("id", "myMap");
+x.setAttribute("name", "myMap");
+document.body.appendChild(x);
+
+var y = document.createElement("AREA");
+y.setAttribute("href", "../example/html/venus.html");
+y.setAttribute("shape", "circle");
+y.setAttribute("coords", "180,139,14");
+document.getElementById("myMap").appendChild(y);
+
+document.getElementById("demo").innerHTML = "已创建 MAP，现在您可以在图像中点击 venus 区域。";
+}
+</script>
+
+</body>
+</html>

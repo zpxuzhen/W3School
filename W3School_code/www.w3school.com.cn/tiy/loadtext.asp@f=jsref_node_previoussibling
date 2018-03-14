@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>列表示例：</p>
+<ul id="myList"><li id="item1">Coffee</li><li id="item2">Tea</li></ul>
+
+<p id="demo">请点击按钮来获得第二个列表项的前一个同胞的 id。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var itm=document.getElementById("item2");
+var x=document.getElementById("demo");  
+x.innerHTML=itm.previousSibling.id;
+}
+</script>
+
+<p><b>注释：</b>元素内的空白字符被视作文本，而文本被视作节点。</p>
+
+<p>请在两个 &lt;li&gt; 元素之间添加空格，结果将是 "undefined"。</p>
+
+</body>
+</html>

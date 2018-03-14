@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../jquery/jquery-1.11.1.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    alert($("#w3s").attr("href"));
+  });
+});
+</script>
+</head>
+
+<body>
+<p><a href="../default.htm" id="w3s">W3School.com.cn</a></p>
+<button>œ‘ æ href ÷µ</button>
+</body>
+
+</html>

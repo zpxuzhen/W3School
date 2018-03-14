@@ -1,0 +1,33 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;form action=&quot;/demo/demo_form.asp&quot; id=&quot;usrform&quot;&gt;
+  Name: &lt;input type=&quot;text&quot; name=&quot;usrname&quot;&gt;
+  &lt;input type=&quot;submit&quot;&gt;
+&lt;/form&gt;
+&lt;br&gt;
+&lt;textarea rows=&quot;4&quot; cols=&quot;50&quot; name=&quot;comment&quot; form=&quot;usrform&quot;&gt;
+请在此处输入文本...&lt;/textarea&gt;
+
+&lt;p&gt;这个文本区域位于 form 元素之外，但仍然是表单的一部分。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;注释：&lt;/b&gt;IE 中不支持该 form 属性。&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

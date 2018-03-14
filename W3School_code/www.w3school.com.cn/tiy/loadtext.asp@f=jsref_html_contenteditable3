@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="myP" contenteditable="true">请尝试改变此文本。</p>
+
+<button onclick="myFunction(this);">禁用 p 元素文本编辑！</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction(button) {
+    var x = document.getElementById("myP");
+        if (x.contentEditable == "true") {
+            x.contentEditable = "false";
+            button.innerHTML = "启用 p 元素文本编辑！";
+        } else {
+            x.contentEditable = "true";
+            button.innerHTML = "禁用 p 元素文本编辑！";
+        }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="../i/eg_planets.jpg"
+border="0" usemap="#planetmap"
+alt="Planets" />
+
+<map name="planetmap" id="planetmap">
+
+<area id="sun" shape="rect" coords="0,0,110,260"
+href ="../example/html/sun.html" target ="_blank"
+title="Sun" />
+
+</map>
+
+<p>太阳的咨询性标题是（请把鼠标移动到太阳上）：
+<script>
+var x=document.getElementById('sun');
+document.write(x.title);
+</script>
+</p>
+
+</body>
+</html>

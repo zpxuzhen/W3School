@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>显示度量：</h1>
+
+<p>
+张三的分数：<meter min="0" low="40" high="90" max="100" value="95"></meter>
+</p>
+
+<p>
+李四的成绩：<meter min="0" low="40" high="90" max="100" value="65"></meter>
+</p>
+
+<p>
+王五的成绩：<meter min="0" low="40" high="90" max="100" value="35"></meter>
+</p>
+
+<p><b>注释：</b>Internet Explorer 不支持 meter 标签。</p>
+
+</body>
+</html>

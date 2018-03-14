@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 URL 字段</h3>
+
+首页：<input type="url" id="myURL" value="http://www.google.com">
+
+<p>点击按钮来获得 URL 字段的 URL。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myURL").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

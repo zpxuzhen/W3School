@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function showMsg()
+{
+alert("您选中了一些文本！");
+}
+</script>
+</head>
+<body>
+
+一些文本：<input type="text" value="请选中我！" onselect="showMsg()">
+
+<p>函数 showMsg() 在输入字段中的文本被选中时触发。此函数显示一段消息。</p>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe src="../demo/demo_iframe_sandbox.html" sandbox="">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+<p>"获得日期和时间" 按钮会在行内框架中运行一段脚本。</p>
+<p>由于 sandbox 属性被设置为空字符串 ("")，行内框架的内容不允许运行脚本。</p>
+<p>如果向 sandbox 属性添加 "allow-scripts"，则允许运行 JavaScript。</p>
+<p><b>注释：</b>IE 9 以及更早的版本不支持 sandbox 属性，Opera 12 以及更早的版本也不支持该属性。</p>
+
+</body>
+</html>

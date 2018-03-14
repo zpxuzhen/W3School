@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>点击按钮来查看 button 元素拥有多少属性。</p>
+
+<button id="myBtn" onclick="myFunction()">试一下</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myBtn").attributes.length;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+<p>结果应该是 2（button 元素的 id 和 onclick 属性）。</p>
+
+<p><b>注释：</b>Internet Explorer 8 以及更早的版本中，attributes 属性将返回元素所有可能的属性的集合，在本例中，会返回大于 2 的数字。</p>
+
+
+</body>
+</html>

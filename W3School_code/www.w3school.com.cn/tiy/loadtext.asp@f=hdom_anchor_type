@@ -1,0 +1,12 @@
+<html>
+<body>
+
+<p><a id="myAnchor" type="text/html" href="../default.htm">W3School.com.cn</a></p>
+
+<script type="text/javascript">
+x=document.getElementById("myAnchor");
+document.write(x.type);
+</script>
+
+</body>
+</html>

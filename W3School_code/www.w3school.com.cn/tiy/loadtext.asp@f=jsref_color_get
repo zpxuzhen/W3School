@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问颜色选择器</h3>
+
+选择您喜爱的颜色：<input type="color" id="myColor">
+
+<p>请点击按钮来获得颜色选择器的颜色。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myColor").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

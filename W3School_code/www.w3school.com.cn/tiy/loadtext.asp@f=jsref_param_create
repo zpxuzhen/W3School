@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何创建 PARAM 元素</h3>
+
+<p>点击按钮来创建包含内嵌音频文件的 OBJECT 和 PARAM 元素。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.createElement("OBJECT");
+x.setAttribute("data", "../i/horse.mp3");
+x.setAttribute("id", "myObject");
+document.body.appendChild(x);
+
+var y = document.createElement("PARAM");
+y.setAttribute("name", "autoplay");
+y.setAttribute("value", "true");
+document.getElementById("myObject").appendChild(y);
+}
+</script>
+
+</body>
+</html>

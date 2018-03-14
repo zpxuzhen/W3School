@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 Search 字段</h3>
+
+<input type="search" id="mySearch" placeholder="搜索..">
+
+<p>点击按钮来获得 search 字段的占位符文本。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("mySearch").placeholder;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

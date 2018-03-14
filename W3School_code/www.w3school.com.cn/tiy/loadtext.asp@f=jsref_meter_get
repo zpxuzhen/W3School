@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 METER 元素</h3>
+
+<p>小明的分数：<meter id="myMeter" min="0" low="40" high="95" max="100" value="65"></meter></p>
+
+<p>点击按钮来获得以上度量的当前“被测量”值。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<p><b>注释：</b>Internet Explorer 以及 Safari 5（以及更早的版本）不支持 value 属性。</p>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myMeter").value;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

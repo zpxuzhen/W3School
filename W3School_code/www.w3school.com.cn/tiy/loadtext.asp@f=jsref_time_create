@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何创建 TIME 元素</h3>
+
+<p>点击按钮来创建规定情人节日期(2014-02-14)的 TIME 元素。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.createElement("TIME");
+x.setAttribute("datetime", "2014-02-14");
+var t = document.createTextNode("情人节");
+x.appendChild(t);
+document.body.appendChild(x);
+}
+</script>
+
+</body>
+</html>

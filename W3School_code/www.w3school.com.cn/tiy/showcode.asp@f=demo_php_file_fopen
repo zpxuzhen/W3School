@@ -1,0 +1,27 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$myfile = fopen(&quot;webdictionary.txt&quot;, &quot;r&quot;) or die(&quot;Unable to open file!&quot;);
+echo fread($myfile,filesize(&quot;webdictionary.txt&quot;));
+fclose($myfile);
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

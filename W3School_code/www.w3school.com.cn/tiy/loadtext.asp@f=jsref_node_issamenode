@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">试一下</button>
+
+<p id="demo">请点击按钮来检查 myList 元素是否与文档的首个列表元素相同。</p>
+
+<ul id="myList"><li>Coffee</li><li>Tea</li></ul>
+
+<script>
+function myFunction()
+{
+var item1=document.getElementById("myList");
+var item2=document.getElementsByTagName("UL")[0];
+var x=document.getElementById("demo");
+x.innerHTML=item1.isSameNode(item2);
+}
+</script>
+
+<p><b>注释：</b>Firefox 版本 10 停止对此方法的支持，因为 DOM version 4 中已弃用该方法。作为替代，您应该使用 === 来比较两节点是否相同。</p>
+<p><b>注释：</b>Internet Explorer 8 以及更早的版本不支持该方法。</p>
+
+</body>
+</html>

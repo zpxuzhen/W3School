@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../jquery/jquery-1.11.1.min.js"></script>
+<script>
+$(document).ready(function()
+  {
+  $("button").click(function(){
+    $("#p1").css("color","red").slideUp(2000).slideDown(2000);
+  });
+});
+</script>
+</head>
+
+<body>
+
+<p id="p1">jQuery 乐趣十足！</p>
+<button>点击这里</button>
+
+</body>
+</html>

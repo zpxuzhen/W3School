@@ -1,0 +1,25 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+echo &quot;我的第一段 PHP 脚本！&quot;;
+?&gt;</code>  
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

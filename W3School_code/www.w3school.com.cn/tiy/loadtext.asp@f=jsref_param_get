@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 PARAM 元素</h3>
+
+<object data="../i/horse.mp3">
+  <param id="myParam" name="autoplay" value="true">
+</object>
+
+<p>点击按钮来获得参数的名称。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myParam").name;
+document.getElementById("demo").innerHTML=x;
+}
+</script>
+
+</body>
+</html>

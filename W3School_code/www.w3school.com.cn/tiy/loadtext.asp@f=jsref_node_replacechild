@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul id="myList"><li>Coffee</li><li>Tea</li><li>Milk</li></ul>
+
+<p id="demo">点击按钮来替换列表中的首个项目。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var textnode=document.createTextNode("Water");
+var item=document.getElementById("myList").childNodes[0];
+item.replaceChild(textnode,item.childNodes[0]);
+}
+</script>
+
+<p>首先创建一个新的文本节点。<br>然后替换首个列表项中的首个子节点。</p>
+<p><b>注释：</b>本例用文本节点 "Water" 替换文本节点 "Coffee"，而不是整个 LI 元素，这是替换节点的另一种方法。</p>
+</body>
+</html>

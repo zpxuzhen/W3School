@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function mouseDown()
+{
+document.getElementById("p1").style.color="red";
+}
+
+function mouseUp()
+{
+document.getElementById("p1").style.color="green";
+}
+</script>
+</head>
+<body>
+
+<p id="p1" onmousedown="mouseDown()" onmouseup="mouseUp()">
+请点击文本！mouseDown() 函数当鼠标按钮在段落上被按下时触发。此函数把文本颜色设置为红色。mouseUp() 函数在鼠标按钮被释放时触发。mouseUp() 函数把文本的颜色设置为绿色。
+</p>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$a = &quot;Hello&quot;;
+$b = $a . &quot; world!&quot;;
+echo $b; // Êä³ö Hello world! 
+
+echo &quot;&lt;br&gt;&quot;;
+
+$x=&quot;Hello&quot;;
+$x .= &quot; world!&quot;;
+echo $x; // Êä³ö Hello world! 
+?&gt;</code>   
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

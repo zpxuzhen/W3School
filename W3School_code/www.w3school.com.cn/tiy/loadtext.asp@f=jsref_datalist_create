@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何创建 Datalist 元素</h3>
+
+<p>请点击按钮来创建 INPUT 字段、DATALIST 元素以及 OPTION 元素。</p>
+
+<form id="myForm"></form>
+
+<button onclick="myFunction()">试一下</button>
+
+<p><b>注释：</b>Internet Explorer 9 以及更早的版本不支持 datalist 元素。</p>
+
+<script>
+function myFunction() {
+    var x = document.createElement("INPUT");
+    x.setAttribute("list", "browsers");
+    document.getElementById("myForm").appendChild(x);
+
+    var y = document.createElement("DATALIST");
+    y.setAttribute("id", "browsers");
+    document.getElementById("myForm").appendChild(y);
+
+    var z = document.createElement("OPTION");
+    z.setAttribute("value", "Chrome");
+    document.getElementById("browsers").appendChild(z);
+}
+</script>
+
+</body>
+</html>

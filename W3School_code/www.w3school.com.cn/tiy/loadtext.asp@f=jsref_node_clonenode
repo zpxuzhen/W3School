@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul id="myList1"><li>Coffee</li><li>Tea</li></ul>
+<ul id="myList2"><li>Water</li><li>Milk</li></ul>
+
+<p id="demo">请点击按钮把项目从一个列表复制到另一个列表中。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var itm=document.getElementById("myList2").lastChild;
+var cln=itm.cloneNode(true);
+document.getElementById("myList1").appendChild(cln);
+}
+</script>
+
+<p>请尝试把 <em>deep</em> 参数设置为 false，将仅仅克隆空的 LI 元素。</p>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript">
+function confirmInput()
+{
+fname=document.forms[0].fname.value
+alert("您好 " + fname + "_25A3_25A1_25C4_25FA_25BB_25E1_25B1_25BB_25D6_25D8_25B6_25A8_25CF_25F2_25B5_25BD www.w3School.com.cn")
+}
+</script>
+</head>
+
+<body>
+<form onsubmit="confirmInput()" action="http://www.w3school.com.cn/">
+请输入您的名字：<input id="fname" type="text" size="20">
+<input type="submit">
+</form>
+</body>
+
+</html>

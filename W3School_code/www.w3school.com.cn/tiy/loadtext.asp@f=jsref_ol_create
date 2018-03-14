@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何创建 OL 元素</h3>
+
+<p>点击按钮来创建 OL 元素和 LI 元素。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.createElement("OL");
+x.setAttribute("id", "myOl");
+document.body.appendChild(x);
+
+var y = document.createElement("LI");
+var t = document.createTextNode("咖啡");
+y.appendChild(t);
+document.getElementById("myOl").appendChild(y);
+}
+</script>
+
+</body>
+</html>

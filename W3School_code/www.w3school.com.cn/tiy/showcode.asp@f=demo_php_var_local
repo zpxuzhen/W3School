@@ -1,0 +1,40 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$x=5; // global scope
+  
+function myTest() {
+   $y=10; // local scope
+   echo &quot;&lt;p&gt;在函数内部测试变量：&lt;/p&gt;&quot;;
+   echo &quot;变量 x 是：$x&quot;;
+   echo &quot;&lt;br&gt;&quot;;
+   echo &quot;变量 y 是：$y&quot;;
+} 
+
+myTest();
+
+echo &quot;&lt;p&gt;在函数之外测试变量：&lt;/p&gt;&quot;;
+echo &quot;变量 x 是：$x&quot;;
+echo &quot;&lt;br&gt;&quot;;
+echo &quot;变量 y 是：$y&quot;;
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

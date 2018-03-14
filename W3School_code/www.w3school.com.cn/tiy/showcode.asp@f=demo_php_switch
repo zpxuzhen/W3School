@@ -1,0 +1,39 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$favcolor=&quot;red&quot;;
+
+switch ($favcolor) {
+   case &quot;red&quot;:
+     echo &quot;Your favorite color is red!&quot;;
+     break;
+   case &quot;blue&quot;:
+     echo &quot;Your favorite color is blue!&quot;;
+     break;
+   case &quot;green&quot;:
+     echo &quot;Your favorite color is green!&quot;;
+     break;
+   default:
+     echo &quot;Your favorite color is neither red, blue, or green!&quot;;
+}
+?&gt;</code>
+  
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

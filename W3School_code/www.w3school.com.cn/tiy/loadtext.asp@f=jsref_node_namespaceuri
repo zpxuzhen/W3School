@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<body>
+
+<p id="demo">请点击按钮来获得文档命名空间的 URI。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x=document.getElementById("demo");  
+x.innerHTML=document.documentElement.namespaceURI;
+}
+</script>
+
+<p><b>注释：</b>Internet Explorer 8 以及更早的版本不支持 namespaceURI 属性。</p>
+
+</body>
+</html>

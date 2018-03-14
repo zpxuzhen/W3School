@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何创建 LI 元素</h3>
+
+<ol id="myList">
+  <li>咖啡</li>
+  <li>红茶</li>
+  <li>牛奶</li>
+  <li>橙汁</li>
+</ol>
+
+<p>点击按钮来创建 LI 元素。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.createElement("LI");
+var t = document.createTextNode("豆浆");
+x.appendChild(t);
+document.getElementById("myList").appendChild(x);
+}
+</script>
+
+</body>
+</html>

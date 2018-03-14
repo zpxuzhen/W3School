@@ -1,0 +1,27 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+print &quot;&lt;h2&gt;PHP is fun!&lt;/h2&gt;&quot;;
+print &quot;Hello world!&lt;br&gt;&quot;;
+print &quot;I'm about to learn PHP!&quot;;
+?&gt;</code>  
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

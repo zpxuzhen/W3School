@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html> 
+<body>
+
+<form action="/demo/welcome_get.php" method="get">
+–’√˚£∫<input type="text" name="name"><br>
+µÁ” £∫<input type="text" name="email"><br>
+<input type="submit">
+</form>
+
+</body>
+</html>

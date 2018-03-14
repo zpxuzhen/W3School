@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 LI 元素</h3>
+
+<ol>
+  <li id="myLi">咖啡</li>
+  <li>红茶</li>
+  <li>牛奶</li>
+  <li>橙汁</li>
+</ol>
+
+<p>点击按钮来设置列表项从数字 300 开始递增。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myLi");
+x.value = "300";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$color=&quot;red&quot;;
+echo &quot;My car is &quot; . $color . &quot;&lt;br&gt;&quot;;
+echo &quot;My house is &quot; . $COLOR . &quot;&lt;br&gt;&quot;;
+echo &quot;My boat is &quot; . $coLOR . &quot;&lt;br&gt;&quot;;
+?&gt;</code>  
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

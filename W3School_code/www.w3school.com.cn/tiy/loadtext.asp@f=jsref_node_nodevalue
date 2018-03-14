@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">请点击按钮来获得 button 元素的节点值。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var c=document.getElementsByTagName("BUTTON")[0];
+var x=document.getElementById("demo");  
+x.innerHTML=c.childNodes[0].nodeValue;
+}
+</script>
+
+<p><b>注释：</b>元素内的文本节点被视作文本节点，因此我们返回 button 元素的首个子节点（childNodes[0]）的节点值。</p>
+
+</body>
+</html>

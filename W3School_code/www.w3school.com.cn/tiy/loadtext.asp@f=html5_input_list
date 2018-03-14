@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+<form action="/example/html5/demo_form.asp">
+อ๘าณฃบ<input type="url" list="url_list" name="link" />
+<datalist id="url_list">
+	<option label="W3School" value="../default.htm" />
+	<option label="Google" value="../../www.google.com/default.htm" />
+	<option label="Microsoft" value="../../www.microsoft.com/default.htm" />
+</datalist>
+<input type="submit" />
+</form>
+
+</body>
+</html>

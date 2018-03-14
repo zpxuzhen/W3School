@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 SOURCE 元素</h3>
+
+<audio controls>
+  <source id="mySource" src="../i/horse.mp3" type="audio/mpeg">
+  <source src="../i/horse.ogg" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+
+<p>点击按钮来获得媒体文件的 URL。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("mySource").src;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

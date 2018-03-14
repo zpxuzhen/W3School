@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="p1">This is a paragraph</p>
+<p id="p2">This is another paragraph</p>
+
+<p id="demo">请点击按钮来比较两个段落的位置。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var p1=document.getElementById("p1").lastChild;
+var p2=document.getElementById("p2").lastChild;
+var x=document.getElementById("demo");
+x.innerHTML=p1.compareDocumentPosition(p2);
+}
+</script>
+
+<p>
+1: The two nodes do not belong to the same document.<br>
+2: p1 is positioned after p2.<br>
+4: p1 is positioned before p2.<br>
+8: p1 is positioned inside p2.<br>
+16: p2 is positioned inside p1.<br>
+32: The two nodes has no relationship, or they are two attributes on the same element.
+</p>
+
+<p><b>注释：</b>Internet Explorer 8 以及更早的版本不支持此方法。</p>
+
+<p><b>注释：</b>返回值可以是值的组合。例如，返回 20 意味着在 p2 在 p1 内部（16），并且 p1 在 p2 之前（4）。</p>
+
+</body>
+</html>

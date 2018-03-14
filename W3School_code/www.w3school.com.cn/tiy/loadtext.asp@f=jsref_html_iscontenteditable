@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="myP" contenteditable="true">请点击按钮来检查本元素是否可编辑。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myP").isContentEditable;
+    document.getElementById("demo").innerHTML = x + " = p 元素可编辑。如需查看效果，请尝试改变其文本。";
+}
+</script>
+
+</body>
+</html>

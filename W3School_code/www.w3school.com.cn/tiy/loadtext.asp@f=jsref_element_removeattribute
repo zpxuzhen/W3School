@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:red">Hello World</h1>
+
+<p id="demo">点击按钮来删除标题中的 style 属性。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+document.getElementsByTagName("H1")[0].removeAttribute("style"); 
+}
+</script>
+
+</body>
+</html>

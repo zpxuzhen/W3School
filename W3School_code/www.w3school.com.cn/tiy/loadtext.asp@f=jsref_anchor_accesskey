@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function accesskey()
+  {
+  document.getElementById('w3s').accessKey="w"
+  document.getElementById('g').accessKey="g"
+  }
+</script>
+</head>
+
+<body onload="accesskey()">
+
+<a id="w3s" href="../default.htm">W3School</a><br>
+<a id="g" href="../../www.google.com/default.htm">Google</a>
+
+<p>accesskey 属性规定激活元素的快捷键。</p>
+<p><b>注释：</b>快捷键在不同的浏览器中各有不同：</p>
+<ul>
+	<li>IE, Chrome, Safari, Opera 15+: [ALT] + <em>accesskey</em></li>
+	<li>Opera prior version 15: [SHIFT] [ESC] + <em>accesskey</em></li>
+	<li>Firefox: [ALT] [SHIFT] + <em>accesskey</em></li>
+</ul>
+
+</body>
+</html>

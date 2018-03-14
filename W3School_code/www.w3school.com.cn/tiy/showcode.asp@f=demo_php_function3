@@ -1,0 +1,31 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+function familyName($fname,$year) {
+  echo &quot;$fname Zhang. Born in $year &lt;br&gt;&quot;;
+}
+
+familyName(&quot;Li&quot;,&quot;1975&quot;);
+familyName(&quot;Hong&quot;,&quot;1978&quot;);
+familyName(&quot;Tao&quot;,&quot;1983&quot;);
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>
+<a href="att_a_media.asp@output=print" media="print and (resolution:300dpi)">打开用于打印的 media 属性页面</a>
+</p>
+
+</body>
+</html>

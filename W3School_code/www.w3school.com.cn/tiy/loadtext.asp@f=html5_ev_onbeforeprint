@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function printmsg()
+{
+alert("即将打印该文档！");
+}
+</script>
+</head>
+
+<body onbeforeprint="printmsg()">
+
+<h1>请试着打印此文档。</h1>
+<p><b>提示：</b>键盘快捷键，比如 Ctrl+P 设置页面打印。</p>
+<p><b>注释：</b>Internet Explorer 和 Firefox 支持 onbeforeprint 属性。</p>
+
+</body>
+</html>

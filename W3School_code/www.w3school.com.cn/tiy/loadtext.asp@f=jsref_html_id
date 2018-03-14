@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<p><a id="myAnchor" href="../default.htm">ทรฮส W3School.com.cn</a></p>
+
+<script>
+var x=document.getElementById("myAnchor");
+document.write(x.id);
+</script>
+
+</body>
+</html>

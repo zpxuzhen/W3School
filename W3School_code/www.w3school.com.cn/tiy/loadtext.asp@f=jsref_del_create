@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何创建 DEL 元素</h3>
+
+<p>点击按钮来创建 DEL 元素。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.createElement("DEL");
+var t = document.createTextNode("Some deleted text");
+x.appendChild(t);
+document.body.appendChild(x);
+}
+</script>
+
+</body>
+</html>

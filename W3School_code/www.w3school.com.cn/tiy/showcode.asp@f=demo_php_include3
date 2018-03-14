@@ -1,0 +1,27 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;h1&gt;欢迎访问我的首页！&lt;/h1&gt;
+<code class="phpcode">&lt;?php
+include 'vars.php';
+echo &quot;我有一辆&quot; . $color. $car. &quot;。&quot;;
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

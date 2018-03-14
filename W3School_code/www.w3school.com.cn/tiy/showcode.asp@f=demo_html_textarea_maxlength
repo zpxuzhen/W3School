@@ -1,0 +1,27 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;textarea rows=&quot;4&quot; cols=&quot;50&quot; maxlength=&quot;50&quot;&gt;
+在此输入文本...
+&lt;/textarea&gt;
+
+&lt;p&gt;&lt;b&gt;注释：&lt;/b&gt;Internet Explorer 9 以及更早的版本或 Opera 不支持 maxlength 属性。&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

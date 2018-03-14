@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body id="myid" class="mystyle">
+
+<script>
+var x=document.getElementsByTagName('body')[0];
+document.write("Body CSS 类：" + x.className);
+document.write("<br>");
+document.write("另一个替代方法：");
+document.write(document.getElementById('myid').className);
+</script>
+
+</body>
+</html>

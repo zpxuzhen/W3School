@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function showMsg()
+{
+alert("您已改变浏览器窗口的尺寸！");
+}
+</script>
+</head>
+
+<body onresize="showMsg()">
+
+<p>请试着调整浏览器窗口的大小。</p>
+
+</body>
+</html>

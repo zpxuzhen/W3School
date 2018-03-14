@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何创建 TITLE 元素</h3>
+
+<p>点击按钮来创建 TITLE 元素。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.createElement("TITLE");
+var t = document.createTextNode("HTML DOM Objects");
+x.appendChild(t);
+document.head.appendChild(x);
+
+document.getElementById("demo").innerHTML="您已经在文档的 HEAD 部分创建了一个 TITLE 元素。";
+}
+</script>
+
+</body>
+</html>

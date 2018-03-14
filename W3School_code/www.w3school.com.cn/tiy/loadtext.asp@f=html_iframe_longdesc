@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe src="../index.html" width="200" height="200" longdesc="w3school.txt">
+  <p>您的浏览器不支持框架。</p>
+</iframe>
+
+</body>
+</html>

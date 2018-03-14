@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>列表示例：</p>
+<ul><li>Coffee</li><li>Tea</li></ul>
+
+<p id="demo">点击按钮来获得列表中首个列表项的父节点节点名。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x=document.getElementById("demo");  
+var y=document.getElementsByTagName("LI")[0];
+x.innerHTML=y.parentNode.nodeName;
+}
+</script>
+
+</body>
+</html>

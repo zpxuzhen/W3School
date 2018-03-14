@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">点击按钮来查看 button 元素拥有的属性数：</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var a=document.getElementsByTagName("BUTTON")[0].attributes;
+var x=document.getElementById("demo");  
+x.innerHTML=a.length;
+}
+</script>
+
+<p>结果是 1（button 元素的 onclick 属性）。</p>
+
+</body>
+</html>

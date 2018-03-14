@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../jquery/jquery-1.11.1.min.js"></script>
+<script>
+var jq=$.noConflict();
+jq(document).ready(function(){
+  jq("button").click(function(){
+    jq("p").text("jQuery 仍在运行！");
+  });
+});
+</script>
+</head>
+
+<body>
+<p>这是一个段落。</p>
+<button>测试 jQuery</button>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>列表示例：</p>
+<ul id="myList"><li>Coffee</li><li>Tea</li></ul>
+
+<p id="demo">请点击按钮来获得列表最后一个子节点的节点名。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var l=document.getElementById("myList");
+var x=document.getElementById("demo");
+x.innerHTML=l.lastChild.nodeName;
+}
+</script>
+
+
+<p><b>注释：</b>元素中的空白被视作文本，而文本被视作文本节点。</p>
+
+<p>请尝试在 UL 关闭标签之前添加空格，结果将是节点 name=#text。</p>
+
+</body>
+</html>

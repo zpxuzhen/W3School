@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 Date 字段</h3>
+
+<input type="date" id="myDate" value="2014-06-01">
+
+<p>点击按钮来获得 date 字段的日期。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myDate").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

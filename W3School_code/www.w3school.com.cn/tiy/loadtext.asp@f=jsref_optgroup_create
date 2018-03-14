@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何创建 OPTGROUP 元素</h3>
+
+<p>点击按钮来创建 OPTGROUP 元素。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<select id="mySelect" size="6">
+<option>BMW
+<option>Mercedes
+<option>Ford
+<option>Volvo
+<option>Toyota
+</select>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("mySelect");
+var y = document.createElement("OPTGROUP");
+y.setAttribute("label", "SwedishCars");
+y.appendChild(x.options[3])
+x.insertBefore(y,x.options[3]);
+}
+</script>
+
+</body>
+</html>

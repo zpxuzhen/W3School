@@ -1,0 +1,27 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;h1&gt;我的第一张 PHP 页面&lt;/h1&gt;
+
+<code class="phpcode">&lt;?php
+echo &quot;Hello World!&quot;;
+?&gt;</code>  
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

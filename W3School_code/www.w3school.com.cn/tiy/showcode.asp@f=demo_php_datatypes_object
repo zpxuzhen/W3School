@@ -1,0 +1,48 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+class Car
+{
+    var $color;
+    function Car($color=&quot;green&quot;) {
+      $this-&gt;color = $color;
+    }
+    function what_color() {
+      return $this-&gt;color;
+    }
+}
+
+function print_vars($obj) {
+   foreach (get_object_vars($obj) as $prop =&gt; $val) {
+     echo &quot;\t$prop = $val\n&quot;;
+   }
+}
+
+// instantiate one object
+$herbie = new Car(&quot;white&quot;);
+
+// show herbie properties
+echo &quot;\herbie: Properties\n&quot;;
+print_vars($herbie);
+
+?&gt;</code>  
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

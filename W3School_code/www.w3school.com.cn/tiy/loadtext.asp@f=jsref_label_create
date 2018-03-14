@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 LABEL 元素</h3>
+
+<form id="myForm" action="form_action.asp">
+  <input type="radio" name="sex" id="male" value="male">
+</form>
+
+<p>点击按钮来创建 LABEL 元素。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.createElement("LABEL");
+var t = document.createTextNode("Male");
+x.setAttribute("for", "male");
+x.appendChild(t);
+document.getElementById("myForm").insertBefore(x,document.getElementById("male"));
+}
+</script>
+
+</body>
+</html>

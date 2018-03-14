@@ -1,0 +1,23 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;a href=&quot;/demo/test_get.php?subject=PHP&web=W3school.com.cn&quot;&gt;≤‚ ‘ $GET&lt;/a&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

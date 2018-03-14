@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<p id="demo">点击按钮来查看指定的命名空间是否是默认的。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var d=document.documentElement;
+var x=document.getElementById("demo");
+x.innerHTML=d.isDefaultNamespace("http://www.w3.org/1999/xhtml");
+}
+</script>
+
+<p><b>注释：</b>Internet Explorer 8 以及更早的版本不支持 isDefaultNamespace 方法。</p>
+
+</body>
+</html>

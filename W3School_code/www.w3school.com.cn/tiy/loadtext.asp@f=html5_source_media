@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<video width="320" height="240" controls>
+<source src="../i/movie.mp4" type="video/mp4" media="screen and (min-width:320px)">
+<source src="../i/movie.ogg" type="video/ogg" media="screen and (min-width:320px)">
+Your browser does not support the video tag.
+</video>
+
+<p><b>注释：</b>目前几乎没有浏览器支持 media 属性。</p>
+
+</body>
+</html>

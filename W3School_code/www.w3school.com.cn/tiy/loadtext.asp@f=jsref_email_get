@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 Email 字段</h3>
+
+E-mail: <input type="email" id="myEmail" value="w3c@example.com">
+
+<p>点击按钮来获得 email 字段的电子邮件地址。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myEmail").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<style type="text/css">
+a[href*="w3school.com.cn"]
+{
+color: red;
+}
+</style>
+</head>
+
+<body>
+<h1>可以应用样式：</h1>
+<a href="../default.htm">W3School</a>
+<a href="../css/default.htm">CSS</a>
+<a href="../html/default.htm">HTML</a>
+
+<hr />
+
+<h1>无法应用样式：</h1>
+<a href="../../www.w3c.org/default.htm">W3C</a>
+<a href="../../www.microsoft.com/default.htm">Microsoft</a>
+<a href="../../www.apple.com.cn/default.htm">Apple</a>
+</body>
+</html>

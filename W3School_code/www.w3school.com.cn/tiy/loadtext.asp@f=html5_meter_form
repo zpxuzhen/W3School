@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/demo/demo_form.asp" method="get" id="form1">
+姓氏：<input type="text" name="fname"><br><br>
+<input type="submit" value="提交">
+</form>
+
+<h1>显示度量：</h1>
+<p>张三的成绩是：<meter form="form1" name="anna" min="0" low="40" high="90" max="100" value="95"></meter></p>
+
+<p><b>注释：</b>任何浏览器都不支持 &lt;meter&gt; 标签的 form 属性。</p>
+
+</body>
+</html>

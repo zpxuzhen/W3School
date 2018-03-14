@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 MAP 元素</h3>
+
+<img src="../i/eg_planets.jpg" border="0" usemap="#myMap" alt="Planets" />
+
+<map name="myMap" id="myMap">
+
+<area
+shape="circle"
+coords="180,139,14"
+href ="../example/html/venus.html"
+target ="_blank"
+alt="Venus" />
+
+<area
+shape="circle"
+coords="129,161,10"
+href ="../example/html/mercur.html"
+target ="_blank"
+alt="Mercury" />
+
+<area
+shape="rect"
+coords="0,0,110,260"
+href ="../example/html/sun.html"
+target ="_blank"
+alt="Sun" />
+
+</map>
+
+<p>点击按钮来获得图像映射中 area 元素的数目。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myMap").areas.length;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

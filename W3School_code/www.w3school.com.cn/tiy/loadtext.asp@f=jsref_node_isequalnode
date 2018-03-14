@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="myFunction('myList1','myList2')">比较列表 1 和列表 2：</button>
+<button onclick="myFunction('myList1','myList3')">比较列表 1 和列表 3：</button>
+
+<p id="demo">点击按钮来比较两个列表中的首个项目。</p>
+
+列表 1：
+<ul id="myList1"><li>Water</li><li>Milk</li></ul>
+列表 2：
+<ul id="myList2"><li>Coffee</li><li>Tea</li></ul>
+列表 3：
+<ul id="myList3"><li>Water</li><li>Fire</li></ul>
+
+<script>
+function myFunction(x,y)
+{
+var item1=document.getElementById(x).firstChild;
+var item2=document.getElementById(y).firstChild;
+var x=document.getElementById("demo");
+x.innerHTML=item1.isEqualNode(item2);
+}
+</script>
+
+<p><b>注释：</b>Internet Explorer 8 以及更早的版本不支持 isEqualNode 方法。</p>
+
+</body>
+</html>

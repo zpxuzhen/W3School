@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML DOM Time 对象</title>
+</head>
+
+<body>
+
+<h3>演示如何访问 TITLE 元素</h3>
+
+<p>点击按钮来获得文档标题的文本。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementsByTagName("TITLE")[0].text;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 OL 元素</h3>
+
+<ol id="myOl">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<p>点击按钮来设置列表项的数字从 25 开始递增。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myOl");
+x.start = "25";
+}
+</script>
+
+</body>
+</html>

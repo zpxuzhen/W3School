@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe src="../demo/demo_iframe_sandbox_form.html" sandbox="">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+<p>"提交" 按钮将提交行内框架内的表单。</p>
+<p>由于 sandbox 属性被设置为空字符串 ("")，将屏蔽对行内框架中表单的提交。</p>
+<p>如果向 sandbox 属性添加 "allow-forms"，则允许表单提交。</p>
+<p><b>注释：</b>IE 9 以及更早的版本不支持 sandbox 属性，Opera 12 以及更早的版本也不支持该属性。</p>
+</body>
+</html>

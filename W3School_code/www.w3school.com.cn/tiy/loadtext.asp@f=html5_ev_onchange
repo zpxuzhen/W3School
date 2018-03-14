@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function checkField(val)
+{
+alert("输入值已更改。新值是：" + val);
+}
+</script>
+</head>
+<body>
+
+<p>请修改输入字段中的文本，然后在字段外点击以触发 onchange。</p>
+
+请输入文本：<input type="text" name="txt" value="Hello" onchange="checkField(this.value)">
+
+</body>
+</html>

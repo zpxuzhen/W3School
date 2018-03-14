@@ -1,0 +1,31 @@
+<html>
+<head>
+
+<script type="text/javascript">
+message="_25D7_25EE_25BA_25C3_25B5_25C4_25D1_25A7_25CF_25B0_25B7_25BD_25B7_25A8_25A3_25AC_25CA_25C7_25D1_25A7_25CF_25B0_25CA_25B5_25C0_25FD_25A1_25A3-www.W3School.com.cn"
+pos=0
+maxlength=message.length+1
+
+function writemsg()
+{
+if (pos<maxlength)
+	{
+	txt=message.substring(pos,0)
+	document.forms[0].msgfield.value=txt
+	pos++ 
+	timer=setTimeout("writemsg()", 50)
+	}
+}
+function stoptimer()
+{
+clearTimeout(timer)
+}
+</script>
+</head>
+
+<body onload="writemsg()" onunload="stoptimer()">
+<form>
+<input id="msgfield" size="65">
+</form>
+</body>
+</html>

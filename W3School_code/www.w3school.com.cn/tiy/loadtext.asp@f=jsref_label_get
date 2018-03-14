@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 LABEL 元素</h3>
+
+<label id="myLabel" for="male">Male</label>
+<input type="radio" name="sex" id="male" value="male"><br>
+
+<p>点击按钮来获得 label 所绑定元素的 id。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myLabel").htmlFor;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

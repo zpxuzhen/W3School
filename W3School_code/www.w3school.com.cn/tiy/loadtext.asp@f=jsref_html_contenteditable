@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="myP">这是一个段落。请点击按钮进行编辑。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("myP").contentEditable = true;
+    document.getElementById("demo").innerHTML = "现在这个 p 元素可编辑。请尝试改变其文本。";
+}
+</script>
+
+</body>
+</html>

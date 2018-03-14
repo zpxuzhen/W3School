@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function setStyle(x)
+{
+document.getElementById(x).style.background="yellow";
+}
+</script>
+</head>
+<body>
+
+<p>当输入字段获得焦点时触发函数。此函数改变输入字段的背景色。</p>
+
+First name: <input type="text" id="fname" onfocus="setStyle(this.id)"><br>
+Last name: <input type="text" id="lname" onfocus="setStyle(this.id)">
+
+</body>
+</html>

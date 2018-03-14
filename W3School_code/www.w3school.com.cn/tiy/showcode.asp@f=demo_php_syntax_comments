@@ -1,0 +1,35 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+  
+<code class="phpcode">&lt;?php
+// 这是单行注释
+
+# 这也是单行注释
+
+/*
+这是多行注释块
+它横跨了
+多行
+*/
+
+echo &quot;Hello World!&quot;;
+?&gt;</code>
+  
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

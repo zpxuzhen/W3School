@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 LEGEND 元素</h3>
+
+<fieldset>
+  <legend id="myLegend">Personalia:</legend>
+  Name: <input type="text">
+</fieldset>
+
+<p>点击按钮来获得 legend 元素的文本。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myLegend").textContent;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+<p><b>注释：</b>Internet Explorer 8 以及更早的版本不支持 textContent 属性。</p>
+
+</body>
+</html>

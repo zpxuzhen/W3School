@@ -1,0 +1,51 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$x=10; 
+echo $x;
+echo &quot;&lt;br&gt;&quot;;
+
+$y=20; 
+$y += 100;
+echo $y;
+echo &quot;&lt;br&gt;&quot;;
+
+$z=50;
+$z -= 25;
+echo $z;
+echo &quot;&lt;br&gt;&quot;;
+
+$i=5;
+$i *= 6;
+echo $i;
+echo &quot;&lt;br&gt;&quot;;
+
+$j=10;
+$j /= 5;
+echo $j;
+echo &quot;&lt;br&gt;&quot;;
+
+$k=15;
+$k %= 4;
+echo $k;
+?&gt;</code>   
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

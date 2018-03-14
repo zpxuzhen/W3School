@@ -1,0 +1,73 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE HTML&gt; 
+&lt;html&gt;
+&lt;head&gt;
+&lt;/head&gt;
+&lt;body&gt; 
+
+<code class="phpcode">&lt;?php
+// define variables and set to empty values
+$name = $email = $gender = $comment = $website = &quot;&quot;;
+
+if ($_SERVER[&quot;REQUEST_METHOD&quot;] == &quot;POST&quot;) {
+   $name = test_input($_POST[&quot;name&quot;]);
+   $email = test_input($_POST[&quot;email&quot;]);
+   $website = test_input($_POST[&quot;website&quot;]);
+   $comment = test_input($_POST[&quot;comment&quot;]);
+   $gender = test_input($_POST[&quot;gender&quot;]);
+}
+
+function test_input($data) {
+   $data = trim($data);
+   $data = stripslashes($data);
+   $data = htmlspecialchars($data);
+   return $data;
+}
+?&gt;</code>
+
+&lt;h2&gt;PHP 验证实例&lt;/h2&gt;
+&lt;form method=&quot;post&quot; action=&quot;<code class="phpcode">&lt;?php echo htmlspecialchars($_SERVER[&quot;PHP_SELF&quot;]);?&gt;</code>&quot;&gt; 
+   姓名：&lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;
+   &lt;br&gt;&lt;br&gt;
+   电邮：&lt;input type=&quot;text&quot; name=&quot;email&quot;&gt;
+   &lt;br&gt;&lt;br&gt;
+   网址：&lt;input type=&quot;text&quot; name=&quot;website&quot;&gt;
+   &lt;br&gt;&lt;br&gt;
+   评论：&lt;textarea name=&quot;comment&quot; rows=&quot;5&quot; cols=&quot;40&quot;&gt;&lt;/textarea&gt;
+   &lt;br&gt;&lt;br&gt;
+   性别：
+   &lt;input type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;female&quot;&gt;女性
+   &lt;input type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;male&quot;&gt;男性
+   &lt;br&gt;&lt;br&gt;
+   &lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;提交&quot;&gt; 
+&lt;/form&gt;
+
+<code class="phpcode">&lt;?php
+echo &quot;&lt;h2&gt;您的输入：&lt;/h2&gt;&quot;;
+echo $name;
+echo &quot;&lt;br&gt;&quot;;
+echo $email;
+echo &quot;&lt;br&gt;&quot;;
+echo $website;
+echo &quot;&lt;br&gt;&quot;;
+echo $comment;
+echo &quot;&lt;br&gt;&quot;;
+echo $gender;
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

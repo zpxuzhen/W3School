@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+
+<card title="Input"> 
+
+<p>
+<fieldset title="CD Info">
+CD: <input name="cd" type="text" size="15"/>
+Prize: <input name="prize" type="text" size="15"/>
+</fieldset>
+</p>
+
+</card>
+
+</wml>

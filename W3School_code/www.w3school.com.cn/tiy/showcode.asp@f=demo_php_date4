@@ -1,0 +1,26 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$d=mktime(9, 12, 31, 6, 10, 2015);
+echo &quot;创建日期是 &quot; . date(&quot;Y-m-d h:i:sa&quot;, $d);
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

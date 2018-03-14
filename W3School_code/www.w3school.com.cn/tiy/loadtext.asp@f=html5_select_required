@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/demo/demo_form.asp">
+<select required>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+<input type="submit">
+</form>
+
+<p><b>注释：</b>所有主流浏览器都不支持 required 属性。</p>
+
+</body>
+</html>

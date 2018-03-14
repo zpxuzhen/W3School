@@ -1,0 +1,39 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+function myTest() {
+   static $x=0;
+   echo $x;
+   $x++;
+}
+
+myTest();
+echo &quot;&lt;br&gt;&quot;;
+myTest();
+echo &quot;&lt;br&gt;&quot;;
+myTest();
+echo &quot;&lt;br&gt;&quot;;
+myTest();
+echo &quot;&lt;br&gt;&quot;;
+myTest();
+?&gt;</code>  
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

@@ -1,0 +1,32 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$d=strtotime(&quot;tomorrow&quot;);
+echo date(&quot;Y-m-d h:i:sa&quot;, $d) . &quot;&lt;br&gt;&quot;;
+
+$d=strtotime(&quot;next Saturday&quot;);
+echo date(&quot;Y-m-d h:i:sa&quot;, $d) . &quot;&lt;br&gt;&quot;;
+
+$d=strtotime(&quot;+3 Months&quot;);
+echo date(&quot;Y-m-d h:i:sa&quot;, $d) . &quot;&lt;br&gt;&quot;;
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

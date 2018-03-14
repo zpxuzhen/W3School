@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:active
+{
+background-color:yellow;
+}
+</style>
+</head>
+<body>
+
+<a href="../default.htm">W3Sschool</a>
+<a href="../../www.google.com/default.htm">Google</a>
+<a href="../../www.wikipedia.org/default.htm">Wikipedia</a>
+
+<p><b>注释：</b>:active 选择器为活动的链接设置样式。</p>
+
+</body>
+</html>

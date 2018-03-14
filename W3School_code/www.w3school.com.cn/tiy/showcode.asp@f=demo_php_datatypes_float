@@ -1,0 +1,32 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php 
+$x = 10.365;
+var_dump($x);
+echo &quot;&lt;br&gt;&quot;; 
+$x = 2.4e3;
+var_dump($x);
+echo &quot;&lt;br&gt;&quot;; 
+$x = 8E-5;
+var_dump($x);
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

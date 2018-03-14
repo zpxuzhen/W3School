@@ -1,0 +1,42 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$x=100; 
+$y=&quot;100&quot;;
+
+var_dump($x == $y); // 因为值相等，返回 true
+echo &quot;&lt;br&gt;&quot;;
+var_dump($x === $y); // 因为类型不相等，返回 false
+echo &quot;&lt;br&gt;&quot;;
+var_dump($x != $y); // 因为值相等，返回 false
+echo &quot;&lt;br&gt;&quot;;
+var_dump($x !== $y); // 因为值不相等，返回 true
+echo &quot;&lt;br&gt;&quot;;
+
+$a=50;
+$b=90;
+
+var_dump($a &gt; $b);
+echo &quot;&lt;br&gt;&quot;;
+var_dump($a &lt;  $b);
+?&gt;</code>   
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

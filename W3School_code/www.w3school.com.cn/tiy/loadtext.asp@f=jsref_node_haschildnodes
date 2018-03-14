@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul id="myList"><li>Coffee</li><li>Tea</li></ul>
+
+<p id="demo">请点击按钮来查看列表元素是否拥有子节点。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var lst=document.getElementById("myList");
+var x=document.getElementById("demo");
+x.innerHTML=lst.hasChildNodes();
+}
+</script>
+
+<p>请尝试删除列表元素中的子节点，结果将是 true 而不是 false。</p>
+
+<p><b>注释：</b>。</p>
+
+<p>请尝试删除列表元素的子节点，结果将是 true 而不是 false。</p>
+<p><b>注释：</b>节点中的空白被视为文本节点，因此如果在元素中留有空白或换行，则元素依然有子节点。</p>
+</body>
+</html>

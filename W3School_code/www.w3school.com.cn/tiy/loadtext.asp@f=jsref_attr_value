@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">请点击按钮来获得 button 元素的首个属性值：</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var btn=document.getElementsByTagName("BUTTON")[0];
+var x=document.getElementById("demo");
+x.innerHTML=btn.attributes[0].value;
+}
+</script>
+
+</body>
+</html>

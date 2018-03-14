@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 DETAILS 元素</h3>
+
+<details id="myDetails">
+Some additional details...
+</details>
+
+<p>点击按钮来显示额外的细节。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myDetails");
+x.open=true;
+}
+</script>
+
+</body>
+</html>

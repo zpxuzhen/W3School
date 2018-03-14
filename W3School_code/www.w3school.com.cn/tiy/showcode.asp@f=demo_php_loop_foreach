@@ -1,0 +1,29 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php 
+$colors = array(&quot;red&quot;,&quot;green&quot;,&quot;blue&quot;,&quot;yellow&quot;); 
+
+foreach ($colors as $value) {
+   echo &quot;$value &lt;br&gt;&quot;;
+}
+?&gt;</code>   
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

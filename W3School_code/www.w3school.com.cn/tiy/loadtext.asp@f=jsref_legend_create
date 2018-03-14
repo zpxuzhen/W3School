@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何创建 LEGEND 元素</h3>
+
+<p>点击按钮来创建含有文本的 LEGEND 元素。</p>
+
+<fieldset id="myFieldset">
+  Name: <input type="text">
+</fieldset><br>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.createElement("LEGEND");
+var t = document.createTextNode("Personalia:");
+x.appendChild(t);
+document.getElementById("myFieldset").appendChild(x);
+}
+</script>
+
+</body>
+</html>

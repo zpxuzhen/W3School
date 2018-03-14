@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p hidden="hidden">这是一段隐藏的段落。</p>
+<p>这是一段可见的段落。</p>
+
+</body>
+</html>

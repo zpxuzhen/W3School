@@ -1,0 +1,26 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$d=strtotime(&quot;10:38pm April 15 2015&quot;);
+echo &quot;创建日期 &quot; . date(&quot;Y-m-d h:i:sa&quot;, $d);
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

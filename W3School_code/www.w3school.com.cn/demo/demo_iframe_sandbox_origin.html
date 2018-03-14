@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<p>图书列表（来自通过 JavaScript 取回的 XML 文件）：</p>
+<script>
+if (window.XMLHttpRequest)
+  {
+  xhttp=new XMLHttpRequest();
+  }
+else // for IE 5/6
+  {
+  xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xhttp.open("GET","books.xml",false);
+xhttp.send();
+xmlDoc=xhttp.responseXML;
+x=xmlDoc.getElementsByTagName('title');
+for (i=0;i<x.length;i++)
+{
+document.write(x[i].childNodes[0].nodeValue);
+document.write("<br>");
+}
+</script>
+</body>
+</html>

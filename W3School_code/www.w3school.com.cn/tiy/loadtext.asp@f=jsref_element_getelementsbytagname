@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul><li>Coffee</li><li>Tea</li></ul>
+
+<p id="demo">请点击按钮来改变某个列表项的文本。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var list = document.getElementsByTagName("UL")[0]
+list.getElementsByTagName("LI")[0].innerHTML = "Milk";
+}
+</script>
+
+</body>
+</html>

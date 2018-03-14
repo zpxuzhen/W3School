@@ -1,0 +1,32 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$txt1=&quot;Learn PHP&quot;;
+$txt2=&quot;W3School.com.cn&quot;;
+$cars=array(&quot;Volvo&quot;,&quot;BMW&quot;,&quot;SAAB&quot;);
+echo $txt1;
+echo &quot;&lt;br&gt;&quot;;
+echo &quot;Study PHP at $txt2&quot;;
+echo &quot;&lt;br&gt;&quot;;
+echo &quot;My car is a {$cars[0]}&quot;;
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

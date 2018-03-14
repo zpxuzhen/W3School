@@ -1,0 +1,27 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+你是谁？
+&lt;textarea rows=&quot;4&quot; cols=&quot;50&quot; placeholder=&quot;请在此处介绍自己...&quot;&gt;
+&lt;/textarea&gt;
+
+&lt;p&gt;&lt;b&gt;注释：&lt;/b&gt;Internet Explorer 9 以及更早的版本不支持 placeholder 属性。&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

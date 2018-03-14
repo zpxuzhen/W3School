@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 Keygen 对象</h3>
+
+<keygen id="myKeygen" name="security">
+
+<p>点击按钮来禁用 keygen 元素。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myKeygen");
+x.disabled = true;
+}
+</script>
+
+</body>
+</html>

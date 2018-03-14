@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 FIELDSET 元素</h3>
+
+<fieldset id="myFieldset" name="personalia">
+  Name: <input type="text" name="username"><br>
+  Email: <input type="text" name="usermail"><br>
+</fieldset>
+
+<p>点击按钮来禁用 fieldset。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<p><b>注释：</b>Internet Explorer 和 Safari 不完全支持 Fieldset 对象的 disabled 属性。</p>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myFieldset");
+x.disabled = true;
+}
+</script>
+
+</body>
+</html>

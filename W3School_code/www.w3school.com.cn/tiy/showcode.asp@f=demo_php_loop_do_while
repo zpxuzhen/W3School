@@ -1,0 +1,30 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php 
+$x=1;
+
+do {
+   echo &quot;Êý×ÖÊÇ£º$x &lt;br&gt;&quot;;
+   $x++;
+} while ($x&lt;=5);
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

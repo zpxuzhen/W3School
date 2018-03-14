@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function displayResult()
+{
+var x=document.getElementById("fname");
+x.value=x.value.toUpperCase();
+}
+</script>
+</head>
+<body>
+
+<p>当用户在输入字段中按下按键时触发函数。此函数把字符转换为大写。</p>
+
+请输入您的姓名（英文字符）：<input type="text" id="fname" onkeyup="displayResult()">
+
+</body>
+</html>

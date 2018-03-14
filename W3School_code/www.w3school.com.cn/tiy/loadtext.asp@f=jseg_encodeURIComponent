@@ -1,0 +1,13 @@
+<html>
+<body>
+
+<script type="text/javascript">
+
+document.write(encodeURIComponent("..")+ "<br />")
+document.write(encodeURIComponent("../My first/default.htm")+ "<br />")
+document.write(encodeURIComponent(",/?:@&=+$#"))
+
+</script>
+
+</body>
+</html>

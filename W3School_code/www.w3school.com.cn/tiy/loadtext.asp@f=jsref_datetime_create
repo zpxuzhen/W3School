@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 Datetime 字段</h3>
+
+<p>点击按钮来创建 Datetime 字段。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction() {
+    var x = document.createElement("INPUT");
+    x.setAttribute("type", "datetime");
+    x.setAttribute("value", "2014-06-01T10:55Z");
+    document.body.appendChild(x);
+}
+</script>
+
+</body>
+</html>

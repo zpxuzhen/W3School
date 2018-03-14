@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 OPTGROUP 元素</h3>
+
+<select size="4">
+  <optgroup id="myOptgroup" label="德国车">
+    <option value="volvo">奔驰</option>
+    <option value="saab">宝马</option>
+    <option value="koenigsegg">奥迪</option>
+  </optgroup>
+</select>
+
+<p>点击按钮来获得选项组的标签/描述。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myOptgroup").label;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

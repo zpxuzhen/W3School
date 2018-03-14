@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function upperCase()
+{
+var x=document.getElementById("fname").value
+document.getElementById("fname").value=x.toUpperCase()
+}
+</script>
+</head>
+<body>
+
+<p>请输入您的姓名，然后把焦点移动到字段外：</p>
+请输入您的姓名（英文字符）：<input type="text" name="fname" id="fname" onblur="upperCase()">
+
+</body>
+</html>

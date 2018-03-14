@@ -1,0 +1,27 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE HTML&gt;
+&lt;html&gt; 
+&lt;body&gt;
+
+&lt;form action=&quot;/demo/welcome_get.php&quot; method=&quot;get&quot;&gt;
+–’√˚£∫&lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;&lt;br&gt;
+µÁ” £∫&lt;input type=&quot;text&quot; name=&quot;email&quot;&gt;&lt;br&gt;
+&lt;input type=&quot;submit&quot;&gt;
+&lt;/form&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

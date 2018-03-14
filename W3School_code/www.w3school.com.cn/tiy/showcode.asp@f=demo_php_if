@@ -1,0 +1,29 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$t=date(&quot;H&quot;);
+
+if ($t&lt;&quot;20&quot;) {
+   echo &quot;Have a good day!&quot;;
+}
+?&gt;</code>
+  
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

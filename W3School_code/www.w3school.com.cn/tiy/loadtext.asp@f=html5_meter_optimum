@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>显示度量：</h1>
+
+<p><meter value="0.3" high="0.9" low="0.1" optimum="0.5"></meter></p>
+
+<p><b>注释：</b>Internet Explorer 不支持 meter 标签。</p>
+
+</body>
+</html>

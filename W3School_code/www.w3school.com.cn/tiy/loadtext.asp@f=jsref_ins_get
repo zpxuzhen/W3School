@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 Ins 元素</h3>
+
+<p><ins id="myIns" cite="why_inserted.htm">这是一段插入的文本。</ins></p>
+
+<p>点击按钮来获得页面的 URL，该页面解释了文本被删除的原因。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myIns").cite;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

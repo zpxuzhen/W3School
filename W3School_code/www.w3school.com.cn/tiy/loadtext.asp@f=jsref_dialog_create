@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 Dialog 元素</h3>
+
+<p>点击按钮来创建含有文本的 DIALOG 元素。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<p><b>注释：</b>目前只有 Chrome Canary 和 Safari 6 支持 &lt;dialog&gt; 元素。</p>
+
+<script>
+function myFunction()
+{
+var x = document.createElement("DIALOG");
+var t = document.createTextNode("This is an open dialog window");
+x.setAttribute("open", "open");
+x.appendChild(t);
+document.body.appendChild(x);
+}
+</script>
+
+</body>
+</html>

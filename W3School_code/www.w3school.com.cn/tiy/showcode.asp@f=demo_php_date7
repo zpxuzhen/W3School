@@ -1,0 +1,31 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$startdate=strtotime(&quot;Saturday&quot;);
+$enddate=strtotime(&quot;+6 weeks&quot;,$startdate);
+
+while ($startdate &lt;  $enddate) {
+   echo date(&quot;M d&quot;, $startdate),&quot;&lt;br&gt;&quot;;
+   $startdate = strtotime(&quot;+1 week&quot;, $startdate);
+}
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

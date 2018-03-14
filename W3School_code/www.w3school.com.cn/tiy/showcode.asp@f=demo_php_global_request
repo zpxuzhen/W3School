@@ -1,0 +1,31 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;form method=&quot;post&quot; action=&quot;<code class="phpcode">&lt;?php echo $_SERVER['PHP_SELF'];?&gt;</code>&quot;&gt;
+Name: &lt;input type=&quot;text&quot; name=&quot;fname&quot;&gt;
+&lt;input type=&quot;submit&quot;&gt;
+&lt;/form&gt;
+
+<code class="phpcode">&lt;?php 
+$name = $_REQUEST['fname']; 
+echo $name; 
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

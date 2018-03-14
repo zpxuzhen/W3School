@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table,th,td
+{
+border:1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h3>演示如何访问 TH 元素</h3>
+
+<table>
+ <tr>
+   <th id="myTh">名字</th>
+ </tr>
+ <tr>
+   <td>乔布斯</td>
+ </tr>
+</table>
+
+<p>点击按钮来改变 TH 元素的文本。</p>
+
+<button onclick="myFunction()">亲自试一试</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myTh");
+x.innerHTML = "新的表头";
+}
+</script>
+
+</body>
+</html>

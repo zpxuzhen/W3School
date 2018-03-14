@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+"http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+	<card id="HTML" title="HTML Tutorial">
+		<p>
+Our HTML Tutorial is an award winning <b>tutorial</b> from W3Schools.
+</p>
+	</card>
+	<card id="XML" title="XML Tutorial">
+		<p>
+Our XML Tutorial is an award winning <b>tutorial</b> from W3Schools.
+</p>
+	</card>
+</wml>

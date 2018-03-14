@@ -1,0 +1,38 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+$x = array(&quot;a&quot; =&gt; &quot;red&quot;, &quot;b&quot; =&gt; &quot;green&quot;); 
+$y = array(&quot;c&quot; =&gt; &quot;blue&quot;, &quot;d&quot; =&gt; &quot;yellow&quot;); 
+$z = $x + $y; // $x 与 $y 的联合
+var_dump($z);
+echo &quot;&lt;br&gt;&quot;;
+var_dump($x == $y);
+echo &quot;&lt;br&gt;&quot;;
+var_dump($x === $y);
+echo &quot;&lt;br&gt;&quot;;
+var_dump($x != $y);
+echo &quot;&lt;br&gt;&quot;;
+var_dump($x &lt;&gt; $y);
+echo &quot;&lt;br&gt;&quot;;
+var_dump($x !== $y);
+?&gt;</code>   
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

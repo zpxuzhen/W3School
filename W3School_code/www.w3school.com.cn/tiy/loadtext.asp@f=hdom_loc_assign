@@ -1,0 +1,15 @@
+<html>
+<head>
+<script type="text/javascript">
+function newDoc()
+  {
+  window.location.assign("..")
+  }
+</script>
+</head>
+<body>
+
+<input type="button" value="Load new document" onclick="newDoc()" />
+
+</body>
+</html>

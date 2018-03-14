@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 TIME 元素</h3>
+
+<p>我在<time id="myTime" datetime="2014-02-14">情人节</time>有个约会。</p>
+
+<p>点击按钮来获得以上 time 元素的日期。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<p><b>注释：</b>time 元素不会在浏览器中呈现任何特殊的样式。</p>
+<p><b>注释：</b>只有 Firefox 和 Opera 12 支持 dateTime 属性。</p>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myTime").dateTime;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>

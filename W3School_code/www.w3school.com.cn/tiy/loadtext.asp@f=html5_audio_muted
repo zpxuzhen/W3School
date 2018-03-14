@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<audio controls muted>
+  <source src="../i/horse.ogg" type="audio/ogg">
+  <source src="../i/horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p><b>注释：</b>Internet Explorer 9 以及更早的版本不支持 muted 属性。</p>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe srcdoc="<p>Hello world!</p>" src="/demo/demo_iframe_srcdoc.html">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+<p><b>注释：</b>所有主流浏览器都支持 srcdoc 属性，除了 Internet Explorer。</p>
+
+</body>
+</html>

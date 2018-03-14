@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body><p id="demo">请点击按钮来获得 body 元素子节点的相关信息。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var txt="";
+var c=document.body.childNodes;
+for (i=0; i<c.length; i++)
+  {
+  txt=txt + c[i].nodeName + "<br>";
+  };
+var x=document.getElementById("demo");  
+x.innerHTML=txt;
+}
+</script>
+
+<p><b>注释：</b>元素中的空格被视为文本，而文本被视为节点。</p>
+
+</body>
+</html>

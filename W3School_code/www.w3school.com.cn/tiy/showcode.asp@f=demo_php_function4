@@ -1,0 +1,32 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+function setHeight($minheight=50) {
+   echo &quot;∏ﬂ∂» «£∫$minheight &lt;br&gt;&quot;;
+}
+
+setHeight(350);
+setHeight();
+setHeight(135);
+setHeight(80);
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

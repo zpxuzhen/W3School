@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">请点击按钮来查看 body 元素是否拥有属性。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x=document.getElementById("demo");
+x.innerHTML=document.body.hasAttributes();
+}
+</script>
+
+<p>请尝试向 body 元素添加属性，结果将是 true 而不是 false。</p>
+
+<p><b>注释：</b>Internet Explorer 8 以及更早的版本不支持该方法。</p>
+
+</body>
+</html>

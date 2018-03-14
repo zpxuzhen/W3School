@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何创建滑块控件</h3>
+
+<p>点击按钮来创建滑块控件。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction() {
+    var x = document.createElement("INPUT");
+    x.setAttribute("type", "range");
+    document.body.appendChild(x);
+}
+</script>
+
+</body>
+</html>

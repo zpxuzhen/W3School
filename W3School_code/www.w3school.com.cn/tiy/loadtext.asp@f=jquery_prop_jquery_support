@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../jquery/jquery-1.11.1.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("p").html("本浏览器能够创建 XMLHttpRequest 对象: " + jQuery.support.ajax);
+  });
+</script>
+</head>
+<body>
+
+<p></p>
+
+</body>
+</html>

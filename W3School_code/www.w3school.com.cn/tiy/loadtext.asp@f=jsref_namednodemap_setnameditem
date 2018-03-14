@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+.democlass{
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<h1>Hello World</h1>
+
+<p id="demo">请点击按钮，将 H1 的 class 属性设置为 &quot;democlass&quot;。</p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var h=document.getElementsByTagName("H1")[0];
+var typ=document.createAttribute("class");
+typ.nodeValue="democlass";
+h.attributes.setNamedItem(typ);
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function changeTabIndex()
+{
+document.getElementById('1').tabIndex="3";
+document.getElementById('2').tabIndex="2";
+document.getElementById('3').tabIndex="1";
+}
+</script>
+</head>
+<body>
+<p><a id="1" href="../../www.w3schools.com/default.htm">1</a></p>
+<p><a id="2" href="../../www.w3schools.com/default.htm">2</a></p>
+<p><a id="3" href="../../www.w3schools.com/default.htm">3</a></p>
+
+<input type="button" onclick="changeTabIndex()"
+value="更改 TabIndex">
+
+<p>请在按下 “更改 TabIndex” 按钮前后事宜 tab 键在链接间导航。</p>
+
+</body>
+</html>

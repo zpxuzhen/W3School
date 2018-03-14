@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="demo_form.asp">
+  First name: <input type="text" name="fname" autofocus><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit">
+</form>
+
+<p><b>注释：</b>Internet Explorer 9 以及更早的版本不支持 input 标签的 autofocus 属性。</p>
+
+</body>
+</html>

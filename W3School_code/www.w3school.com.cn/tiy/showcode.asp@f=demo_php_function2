@@ -1,0 +1,33 @@
+
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="showcode.css" />
+</head>
+
+<body>
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+<code class="phpcode">&lt;?php
+function familyName($fname) {
+  echo &quot;$fname Zhang.&lt;br&gt;&quot;;
+}
+
+familyName(&quot;Li&quot;);
+familyName(&quot;Hong&quot;);
+familyName(&quot;Tao&quot;);
+familyName(&quot;Xiao Mei&quot;);
+familyName(&quot;Jian&quot;);
+?&gt;</code>
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>

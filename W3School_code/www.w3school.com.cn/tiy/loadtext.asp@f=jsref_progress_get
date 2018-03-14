@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>演示如何访问 PROGRESS 元素</h3>
+
+下载进度：
+<progress id="myProgress" value="75" max="100">
+</progress>
+
+<p>点击按钮来获得下载进度条的当前进度值。</p>
+
+<p id="demo"></p>
+
+<button onclick="myFunction()">试一下</button>
+
+<script>
+function myFunction()
+{
+var x = document.getElementById("myProgress").value;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
